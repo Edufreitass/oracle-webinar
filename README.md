@@ -38,7 +38,8 @@
 - Evolução com:
 	- Menor investimento
 
-**JCP** : Decisões que foram tomadas ao longo dos anos e sobre como o uso de **especificações** permitiu que não houvesse **vendor lock-in** com bibliotecas e apis no ecossistema Java.
+### JCP 
+- Decisões que foram tomadas ao longo dos anos e sobre como o uso de **especificações** permitiu que não houvesse **vendor lock-in** com bibliotecas e apis no ecossistema Java.
 
 ## 2. Boas práticas para Orientação a Objetos
 
@@ -82,6 +83,7 @@ public List<Project> consultList(
 - :heavy_check_mark: Melhor encapsulamento.
 
 **Herança**
+
 Voluntário é uma Pessoa
 ```java
 @Entity
@@ -99,6 +101,7 @@ public class Voluntary extends Person {
 ```
 
 **Composição**
+
 Projeto tem um Responsável
 ```java
 public class Project {
